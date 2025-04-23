@@ -7,7 +7,7 @@ function Navbar() {
         <nav class="navbar navbar-expand-lg border-bottom">
             <div class="container p-2">
                 <Link class="navbar-brand ms-5" to={'/'}>
-                    <img src={logo} alt="zerodha-logo" style={{ width: '25%' }} />
+                    <img src={logo} class="zerodha-logo-top" alt="zerodha-logo" style={{ width: '25%' }} />
                 </Link>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -20,7 +20,7 @@ function Navbar() {
                                 <Link class="nav-link active" aria-current="page" to={'/about'}>About</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link active" aria-current="page" to={'/product'}>Products</Link>
+                                <Link class="nav-link active" aria-current="page" to={'/products'}>Products</Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link active" aria-current="page" to={'/pricing'}>Pricing</Link>
