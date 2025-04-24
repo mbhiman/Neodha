@@ -35,9 +35,11 @@ function Universe() {
                     <Link to={"https://joinditto.in/"}><img class='parter-logo' src={dittoLogo} alt="" /></Link>
                 </div>
             </div>
-            
-            <div className='text-center mt-5'>
-                <button className='btn btn-primary p-2 fs-5' style={{ width: "20%", margin: "0 auto" }}>Sign up for free</button>
+
+            <div className='text-center mt-5' >
+                <Link to={'/signup'} >
+                    <button className='btn btn-primary p-2 fs-5' style={{ width: "20%", margin: "0 auto" }}>Sign up for free</button>
+                </Link>
             </div>
         </div>
     );

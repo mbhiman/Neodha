@@ -14,3 +14,12 @@
 .parter-logo {
     width: 50%;
 }
+
+.equity-trades {
+    width: 70%;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+.small-text {
+    font-size: small;
+}
