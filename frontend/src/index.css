@@ -23,3 +23,30 @@
 .small-text {
     font-size: small;
 }
+
+#supportHero {
+    background-color: #387ed1;
+    color: aliceblue;
+}
+
+#supportHero a{
+    color: aliceblue;
+}
+
+#supportHero input {
+    padding: 20px;
+    width: 600px;
+    border-radius: 4px;
+    border: none;
+}
+
+#supportWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 160px;
+}
+
+#supportColumn {
+    margin-left: 150px;
+}
